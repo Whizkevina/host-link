@@ -4665,7 +4665,7 @@ section.section-skewed.section-bordered #home-slider:after {
     #works-grid.two-col .work-item,
     #works-grid.three-col .work-item,
     #works-grid.four-col .work-item {
-        width: 100%;
+        width: 77%;
     }
 }
 .work-item {
