@@ -207,7 +207,7 @@
       !$firstSection.is('.parallax-section, .dark-bg, .colored-bg') &&
       $homeSlider.length === 0
     ) {
-      $navBar.addClass('stick');
+      $navBar.addClass('');
     }
 
     if ($firstSection.is('.parallax-section.text-dark')) {

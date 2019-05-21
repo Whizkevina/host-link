@@ -1,19 +1,17 @@
-﻿<!DOCTYPE html>
+﻿﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 
     <title>WegiGo official Website</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="stylesheets/bundle.css">
     <link rel="shortcut icon" href="images/favicon.png">
     <script type="text/javascript" src="javascripts/jquery.js"></script>
     <link rel="stylesheet" href="stylesheets/hody-icons.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
     <link rel="stylesheet" href="stylesheets/style.css">
-    <link rel="stylesheet" href="stylesheets/bundle.css">
-    <link rel="stylesheet" href="stylesheets/bootsrap.css">
-<!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:500" rel="stylesheet" type="text/css">
@@ -50,9 +48,9 @@
         <div class="navbar-wrapper">
             <div class="container">
                 <div class="logo">
-                    <a class="" href="#">
-                        <!-- <img class="logo-dark" src="../../Content/logowolf.png" style="height:135px;width:80px; margin-top:20px;"> -->
-                        <img class="logo-light" src="images/logowolf.png" style="height:350px;width:90px; margin-top:35px;">
+                    <a href="/">
+<!--                        <img class="logo-dark" src="images/logowolf.png" style="height:135px;width:80px; margin-top:20px;">-->
+                        <img class="logo-light" src="images/logowolf.png" style="height:265px;width:80px; margin-top:20px;">
                     </a>
                 </div>
                 <div class="menu-extras">
@@ -107,7 +105,7 @@
 
                         </li>
                         <li class="menu-item-has-children has-megamenu">
-                            <a href="#Clients" style="font-family: 'Raleway', sans-serif; font-size:14px;font-weight:bold;">Our Clients</a>
+                            <a href="#Clients"style="font-family: 'Raleway', sans-serif; font-size:14px;font-weight:bold;">Our Clients</a>
 
                         </li>
                         <li class="menu-item-has-children has-megamenu">
@@ -119,11 +117,18 @@
         </div>
     </nav>
 
-    <%include partials/_Layout%>
+    <% include partials/_Layout %>
 
+    <% include partials/footer %>
 </div>
 
-<% include partials/footer%>
+
+<script type="text/javascript" src="javascripts/bundle.js"></script>
+<script type="text/javascript" src="javascripts/SmoothScroll.js"></script>
+<script type="text/javascript" src="javascripts/jquery.mb.YTPlayer.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNGOsBBZo9vf0Tw4w6aJiilSTFVfQ5GPI"></script>
+<script type="text/javascript" src="javascripts/main.js"></script>
+<script src="javascripts/jquery-1.10.2.min.js"></script>
 </body>
 
 </html>
