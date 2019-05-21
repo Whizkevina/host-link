@@ -38,7 +38,7 @@ body.boxed-layout {
 }
 img,
 video {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
 }
 a {
@@ -522,9 +522,9 @@ section.page-title .bp-desktop({
   height: calc(100% + 30vh);
 }
 .row-parallax-bg .parallax-wrapper .parallax-bg {
-  background-size: 1450px 668px;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0% 0%;
+  background-position: 0% 20%;
   position: absolute;
   top: 0;
   left: 0;
